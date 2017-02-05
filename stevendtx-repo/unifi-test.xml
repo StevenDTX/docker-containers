@@ -2,7 +2,7 @@
 <Container>
   <Beta>False</Beta>
   <Category>HomeAutomation: Network:Management</Category>
-  <Name>UniFi</Name>
+  <Name>UniFi-test</Name>
   <Description></Description>
   <Registry>https://registry.hub.docker.com/u/stevendtx/unifi-test/</Registry>
   <Repository>stevendtx/unifi-test</Repository>
@@ -41,8 +41,8 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/unifi/</HostDir>
-      <ContainerDir>/var/lib/unifi</ContainerDir>
+      <HostDir>/mnt/cache/appdata/unifi-test/</HostDir>
+      <ContainerDir>/var/lib/unifi-test</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
