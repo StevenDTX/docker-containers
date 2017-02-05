@@ -5,7 +5,7 @@
   <Name>UniFi</Name>
   <Description></Description>
   <Registry>https://registry.hub.docker.com/u/stevendtx/unifi-test/</Registry>
-  <Repository>stevendtx/unifi</Repository>
+  <Repository>stevendtx/unifi-test</Repository>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <Environment/>
